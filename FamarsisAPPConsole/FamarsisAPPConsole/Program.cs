@@ -10,7 +10,14 @@ namespace FamarsisAPPConsole
     {
         static void Main(string[] args)
         {
+
             Console.WriteLine("===> y dale u");
+            for (int i = 0; i < 5; i++)
+            {
+                Console.WriteLine(i);
+            }
+            Console.ReadKey();
+
         }
     }
 }
